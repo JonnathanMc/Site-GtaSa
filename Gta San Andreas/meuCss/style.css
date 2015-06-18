@@ -1,0 +1,77 @@
+    body { background: #222; }
+
+    /*=== MENU COM ICONES ===*/
+    #nav { 
+        width: 900px; 
+        background: #333333; 
+        margin: 180px; 
+        float: left;
+     
+        }
+    #nav ul { 
+        margin: 0;
+         padding: 0;
+         list-style: none; 
+         width: 100%; 
+         float: left; 
+    }
+
+    #nav ul li { 
+        float: left; 
+        font: 26px 'Pricedown' ; 
+        
+        border-right: 1px solid #4f4f4f;
+    }
+    #nav ul li a { 
+        color: white; 
+        text-decoration: none; 
+        padding: 20px; 
+        display: block; 
+    }
+
+    #nav ul li:hover { 
+        background: pink; 
+       
+    }
+    #nav ul li .home { 
+
+        float: left; 
+        width: 100%; 
+        padding: 30px 0; 
+        margin-bottom: 15px;  
+    }
+    #nav ul li .service { 
+        background: #489 url(image/02-serviços.png) no-repeat center ; 
+        float: left; 
+        width: 100%; 
+        padding: 30px 0; 
+        margin-bottom: 15px;  
+    }
+    #nav ul li .sobre { 
+        background: #874 url(image/03-sobre.png) no-repeat center ; 
+        float: left; 
+        width: 100%; 
+        padding: 30px 0; 
+        margin-bottom: 15px;  
+    }
+    #nav ul li .portfolio { 
+        background: #987 url(image/04-portfolio.png) no-repeat center ;
+        float: left; 
+        width: 100%; 
+        padding: 30px 0; 
+        margin-bottom: 15px;  
+    }
+    #nav ul li .eventos {
+        background: #076 url(image/05-evento.png) no-repeat center ; 
+        float: left;
+        width: 100%; 
+        padding: 30px 0;
+        margin-bottom: 15px;  
+    }
+    #nav ul li .contato { background: #473 url(image/06-contato.png) no-repeat center ; 
+        float: left; 
+        width: 100%; 
+        padding: 30px 0; 
+        margin-bottom: 15px;  
+    }
+
