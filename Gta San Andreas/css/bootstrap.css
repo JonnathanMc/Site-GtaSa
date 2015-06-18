@@ -3140,13 +3140,14 @@ tbody.collapse.in {
   display: none;
   float: left;
   min-width: 160px;
-  padding: 5px 0;
+  padding: 3px 0;
   margin: 2px 0 0;
   font-size: 14px;
   text-align: left;
   list-style: none;
-  background-color: #fff;
-  -webkit-background-clip: padding-box;
+  background-color: transparent;
+  -webkit-backgr.ound-clip: padding-box;
+  -webkit-backgr.ound-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, .15);
@@ -3167,11 +3168,17 @@ tbody.collapse.in {
 .dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;
+    margin: 2;
   clear: both;
   font-weight: normal;
-  line-height: 1.42857143;
-  color: #333;
+  line-height: 1.5;
+  color: white;
   white-space: nowrap;
+    background-color: #222;
+
+    font-family: Pricedown;
+    font-size: 20;
+    text-align: center
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
@@ -3956,7 +3963,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
-      padding: 10 10 10 10
+      padding: 10 10 10 10;
     width: 80px;
     margin-top: 0;
     background-color: transparent;
